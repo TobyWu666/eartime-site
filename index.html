@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>耳機時間 · 支援</title>
+  <meta name="description" content="耳機時間 App 的使用說明、常見問題與聯絡方式。">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <div class="name">耳機時間</div>
+      <div class="tag">看看每副耳機陪你聽了多久</div>
+    </div>
+  </header>
+  <nav>
+    <a href="./" aria-current="page">支援與常見問題</a>
+    <a href="privacy.html">隱私權政策</a>
+  </nav>
+
+  <h1>支援與常見問題</h1>
+  <p class="updated">耳機時間會讀取健康 App 的耳機音訊紀錄，替每副耳機算出佩戴時間、日平均與音量。</p>
+
+  <div class="card highlight">
+    <h2>需要協助？</h2>
+    <p>遇到問題或有建議，歡迎寄信到 <a href="mailto:mail@wutoby.com">mail@wutoby.com</a>。來信時附上 iPhone 型號、iOS 版本和問題的截圖，可以更快幫你解決。</p>
+  </div>
+
+  <div class="card">
+    <h2>開始使用</h2>
+    <details>
+      <summary>App 顯示沒有任何紀錄</summary>
+      <p>請確認兩件事：</p>
+      <p>1. iPhone 有在記錄耳機音量：<span class="path">設定 › 聲音與觸覺回饋 › 耳機安全性</span>，打開「測量耳機音訊」。<br>
+         2. 允許 App 讀取：<span class="path">健康 App › 右上角頭像 › App › 耳機時間</span>，打開「耳機音訊音量」。</p>
+      <p>設定好之後，戴耳機聽一段時間，再回到 App 下拉重新整理。</p>
+    </details>
+    <details>
+      <summary>可以讀到多久以前的紀錄？</summary>
+      <p>健康 App 從 iOS 13 開始記錄耳機音量，只要紀錄還在，App 都能讀到。換新手機時，健康資料需要透過 iCloud 或加密備份轉移才會保留。</p>
+    </details>
+    <details>
+      <summary>資料多久更新一次？</summary>
+      <p>每次打開 App 都會自動同步新的紀錄，也可以下拉畫面或到「設定 › 立即同步」手動更新。健康 App 有時會延遲幾分鐘才寫入最新的聆聽紀錄。</p>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>統計怎麼算</h2>
+    <details>
+      <summary>日平均是怎麼計算的？</summary>
+      <p>以「有聆聽紀錄的日子」為準，而且不含還沒過完的今天，所以沒戴耳機的日子不會把平均拉低。</p>
+    </details>
+    <details>
+      <summary>同時連兩副耳機會重複計算嗎？</summary>
+      <p>不會。總時間會把重疊的時段合併，只算一次。</p>
+    </details>
+    <details>
+      <summary>「太大聲」的標準是多少？</summary>
+      <p>預設是 80 dB，可以在「設定 › 太大聲的門檻」改成 75 或 85 dB。WHO 建議 80 dB 的音量每週不要超過 40 小時。</p>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>耳機</h2>
+    <details>
+      <summary>耳機名稱或型號顯示錯誤</summary>
+      <p>名稱是依健康 App 記錄的型號自動辨識的。在「耳機」頁點進那副耳機，按右上角的筆就能重新命名。</p>
+    </details>
+    <details>
+      <summary>出現一副我沒用過的耳機</summary>
+      <p>可能是曾經短暫連過你手機的耳機。到「設定 › 顯示的耳機」把它關掉，它就不會算進任何統計。</p>
+    </details>
+    <details>
+      <summary>我有的耳機沒有出現</summary>
+      <p>代表健康 App 沒有那副耳機的音量紀錄。部分非 Apple 耳機或透過其他裝置連接時，iPhone 可能不會記錄。到「設定 › 重新讀取全部」可以重新讀一次。</p>
+    </details>
+  </div>
+
+  <div class="card">
+    <h2>分享與隱私</h2>
+    <details>
+      <summary>怎麼產生分享圖？</summary>
+      <p>在「首頁」按右上角的分享鍵，選 7 天、30 天或全部，再按「分享圖片」，就能傳給朋友或存到相簿。</p>
+    </details>
+    <details>
+      <summary>我的資料會被上傳嗎？</summary>
+      <p>不會。所有資料只在你的 iPhone 上處理，詳細內容請看 <a href="privacy.html">隱私權政策</a>。</p>
+    </details>
+  </div>
+
+  <footer>© 2026 耳機時間 EarTime</footer>
+</div>
+</body>
+</html>
